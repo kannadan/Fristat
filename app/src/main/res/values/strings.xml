@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FriStats</string>
+    <string name="players">Players</string>
+    <string name="games">Games</string>
+    <string name="noName">No such name found</string>
+    <string name="findName">Search user</string>
+    <string name="search">Search</string>
+    <string name="noGame">No game data to search</string>
+    <string name="gameCounter">Games: %d.</string>
+    <string name="all">All years</string>
+    <string name="timeFormat">%s.%s.%s klo %s.%s</string>
+
+    <string name="gamesPlayed">Games Played:</string>
+    <string name="gamesPlayedValue">%d</string>
+    <string name="gamesWon">Games Won:</string>
+    <string name="gamesWonValue">%d -> %.2f%%</string>
+    <string name="roundsPlayed">Rounds Played:</string>
+    <string name="roundsPlayedValue">%d</string>
+    <string name="roundsWon">Rounds Won:</string>
+    <string name="roundsWonValue">%d -> %.2f%%</string>
+    <string name="gameSecond">Two round games</string>
+    <string name="gameSecondValue">%d</string>
+    <string name="gameSecondWon">Two round wins</string>
+    <string name="gameSecondWonValue">%d -> %.2f%%</string>
+    <string name="gameThird">Three round games</string>
+    <string name="gameThirdValue">%d</string>
+    <string name="gameThirdWon">Three round wins</string>
+    <string name="gameThirdWonValue">%d -> %.2f%%</string>
+
+    <string name="noRes">No game or player data yet</string>
+
+    <string name="newGame">New Game</string>
+    <string name="hintName">Game name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="submit">Submit</string>
+    <string name="join">Join game</string>
+    <string name="leave">Leave game</string>
+    <string name="delete">Delete Game</string>
+    <string name="teams">Create teams</string>
+    <string name="notYou">Game is full and you are not in it</string>
+    <string name="approve">Game is waiting approval</string>
+
+    <string name="team1W">Team 1 won:</string>
+    <string name="team2W">Team 2 won:</string>
+    <string name="result1">2-0</string>
+    <string name="result2">2-1</string>
+
+</resources>

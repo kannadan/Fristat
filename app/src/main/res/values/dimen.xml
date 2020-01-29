@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="refreshButton">40dp</dimen>
+    <dimen name="settingsButton">60dp</dimen>
+    <dimen name="noRoom">25dp</dimen>
+
+</resources>

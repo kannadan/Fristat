@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guidelineNewGameStart"
+        app:layout_constraintGuide_begin="100dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guidelineNewGameEnd"
+        app:layout_constraintGuide_begin="100dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Unfinished games"
+        android:gravity="center"
+        android:textSize="@dimen/refreshButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/list_view_newgames"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="@color/colorWhite"
+        android:dividerHeight="4px"
+        app:layout_constraintBottom_toTopOf="@+id/newGameBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/newGameBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/newGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineNewGameEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineNewGameStart" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
